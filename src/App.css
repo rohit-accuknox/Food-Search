@@ -1,38 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #dbee10, #ffc200, #ff9531, #ff6a57, #f44b77);
+}
+
+h1{
+  margin: 10px auto;
+  font-size: 40px;
+}
+
+.recipes {
+  margin-top: 25px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.search_input {
+  padding: 6px 16px;
+  min-width: 200px;
+  max-width: 100vw;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search_button {
+  padding: 6px 16px;
+  font-size: 15px;
+  margin-left: 6px;
+  background-color: lightskyblue;
+  border: 2px solid black;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+  background-image: linear-gradient(to left, #dbee10, #ffc200, #ff9531, #ff6a57, #f44b77);
+
 }
+
+.search_button:hover {
+  padding: 6px 16px;
+  font-size: 15px;
+  margin-left: 6px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #dbee10, #ffc200, #ff9531, #ff6a57, #f44b77);
+
+}
+  

@@ -1,0 +1,12 @@
+.error {
+    background-color: red;
+    border-radius: 20px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.error h3 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}

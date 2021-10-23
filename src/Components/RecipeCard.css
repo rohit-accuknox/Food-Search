@@ -1,0 +1,17 @@
+.recipe_card {
+    cursor: pointer;
+    margin: 10px;
+}
+
+.recipe_image {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.recipe_name {
+    max-width: 200px;
+    text-align: center;
+    margin: 12px 0px;
+}
